@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header {
+    display: flex;
+    height: 12vh;
+    background-color:lightskyblue;
+   box-shadow: 0px 5px 20px gray;
+   flex-direction: column;
+   
+   
+}
+#logo {
+    display: inline-block;
+    float: left;
+    width: 40%;
+    height: 11vh;
+
+   margin-top: 2px;
+  border-radius: 50%;
+   
+}
+#bar {
+    display: inline-block;
+ 
+    width: 60%;
+    height: 11vh;
+    display: flex;
+    margin-left: 70%;
+    margin-bottom: 80%;
+}
